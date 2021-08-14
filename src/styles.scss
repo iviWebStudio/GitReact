@@ -1,0 +1,34 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "@primer/css/index.scss";
+
+.AppContainer {
+  min-height: 100vh;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.blob-num {
+  color: var(--color-diff-blob-num-text);
+  cursor: pointer;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 12px;
+  line-height: 20px;
+  min-width: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: right;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 1%;
+}
+
+.pinned-gist-blob-num {
+  cursor: default;
+  min-width: 36px;
+}
